@@ -1,0 +1,32 @@
+.cadastro-container{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-container{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.form-item{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    height: 50px;
+    width: 80%;
+
+}
+.form-item label{
+    font-weight: bold;
+}
+
+.form-item input{
+    width: 100px;
+}
+ 
